@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UpFound — Capital for the first eighteen months</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scene">
+
+  <!-- ambient glow / vignette layers -->
+  <div class="glow glow--core"></div>
+  <div class="glow glow--ring"></div>
+  <div class="vignette"></div>
+
+  <header class="nav">
+    <a class="nav__logo" href="#top">
+      <span class="nav__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="20" height="20">
+          <path d="M3 15 L9 5 L14 12 L21 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M15 3 L21 3 L21 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      UpFound
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#top" class="is-active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#solution">Solution</a>
+    </nav>
+
+    <div class="nav__right">
+      <button class="lang" type="button" aria-haspopup="listbox">
+        <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.7 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.7-3.8-9s1.3-6.4 3.8-9z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+        English
+        <svg viewBox="0 0 24 24" width="10" height="10" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+      <a class="btn btn--pill" href="#login">Login / Register</a>
+    </div>
+  </header>
+
+  <main id="top" class="hero">
+
+    <h1 class="hero__wordmark" aria-hidden="true">UpFound</h1>
+
+    <div class="hero__grid">
+
+      <div class="hero__copy">
+        <h2 class="hero__heading">
+          <span>Built to</span>
+          <span>outlast</span>
+        </h2>
+        <p class="hero__sub">
+          Capital, operating guidance, and a network of later-stage founders — for teams in the eighteen months after the first check.
+        </p>
+        <div class="hero__actions">
+          <button class="btn btn--primary" type="button">Apply for funding</button>
+          <button class="btn btn--ghost" type="button">Talk to a partner</button>
+        </div>
+      </div>
+
+      <div class="hero__object" aria-hidden="true">
+        <div class="rig">
+          <div class="rig__gem rig__gem--left">
+            <svg viewBox="0 0 100 120"><polygon points="50,4 90,40 74,116 26,116 10,40" /><polygon class="facet" points="50,4 90,40 50,58" /><polygon class="facet facet--b" points="50,4 10,40 50,58" /></svg>
+          </div>
+          <div class="rig__gem rig__gem--right">
+            <svg viewBox="0 0 100 120"><polygon points="50,4 90,40 74,116 26,116 10,40" /><polygon class="facet" points="50,4 90,40 50,58" /><polygon class="facet facet--b" points="50,4 10,40 50,58" /></svg>
+          </div>
+
+          <div class="rig__card">
+            <svg viewBox="0 0 220 280">
+              <rect x="14" y="14" width="192" height="252" rx="18" />
+              <rect class="card__chip" x="34" y="150" width="34" height="26" rx="4" />
+              <line class="card__line" x1="34" y1="40" x2="150" y2="40" />
+              <line class="card__line" x1="34" y1="58" x2="120" y2="58" />
+              <circle class="card__node" cx="34" cy="210" r="3" />
+              <circle class="card__node" cx="52" cy="210" r="3" />
+              <circle class="card__node" cx="70" cy="210" r="3" />
+            </svg>
+          </div>
+
+          <div class="rig__pedestal">
+            <svg viewBox="0 0 220 140">
+              <polygon points="110,0 210,40 110,80 10,40" />
+              <polygon class="ped__side ped__side--l" points="10,40 110,80 110,140 10,100" />
+              <polygon class="ped__side ped__side--r" points="210,40 110,80 110,140 210,100" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <aside class="social" aria-label="Social links">
+      <a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="16" height="16"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+      </a>
+      <a href="#" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path d="M14 9h3V5.6c-.5-.07-2.2-.22-3.2-.22-3.16 0-4.3 1.9-4.3 4.8V12H6.7v3.6H9.5V21h3.6v-5.4H15.7L16.3 12H13.1v-1.4c0-1 .3-1.6 1-1.6z" fill="currentColor"/></svg>
+      </a>
+      <a href="#" aria-label="X">
+        <svg viewBox="0 0 24 24" width="16" height="16"><path d="M4 4l16 16M20 4L4 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </a>
+    </aside>
+
+    <div class="stats-card">
+      <div class="stats-card__head">
+        <span>Founders funded</span>
+        <svg viewBox="0 0 24 24" width="14" height="14"><path d="M7 17L17 7M7 7h10v10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </div>
+      <div class="stats-card__body">
+        <div class="stats-card__figures">
+          <p><strong>83%</strong> Reached Series A</p>
+          <p><strong>17%</strong> Still raising</p>
+        </div>
+        <div class="gauge" role="img" aria-label="86 percent retained in portfolio">
+          <svg viewBox="0 0 80 80">
+            <circle class="gauge__track" cx="40" cy="40" r="34" />
+            <circle class="gauge__value" cx="40" cy="40" r="34" />
+          </svg>
+          <span class="gauge__num">86<small>%</small></span>
+        </div>
+      </div>
+      <p class="stats-card__delta">↑ 4.6% this quarter</p>
+    </div>
+
+    <button class="scroll-cue" type="button">
+      <span>Scroll to explore</span>
+      <svg viewBox="0 0 24 24" width="14" height="14"><path d="M12 4v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+
+  </main>
+
+  <section id="about" class="page-section split-section">
+    <div class="split-section__content">
+      <h2 class="section-title">About Us</h2>
+      <p class="section-desc">We provide capital, operating guidance, and a network of later-stage founders. Our mission is to ensure your team is fully supported during the crucial eighteen months after your first check. We align with founders who are building the future.</p>
+      <ul class="feature-list">
+        <li>✓ Dedicated operating partners</li>
+        <li>✓ Follow-on round support</li>
+        <li>✓ Global talent network</li>
+      </ul>
+    </div>
+    <div class="split-section__visual">
+      <div class="stat-card">
+        <h3>$100M+</h3>
+        <p>Capital Deployed</p>
+      </div>
+      <div class="stat-card">
+        <h3>250+</h3>
+        <p>Startups Funded</p>
+      </div>
+      <div class="stat-card">
+        <h3>42</h3>
+        <p>Successful Exits</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="services" class="page-section">
+    <div class="section-header">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-desc">Strategic funding, hands-on operational support, and exclusive access to a curated network.</p>
+    </div>
+    <div class="grid-cards">
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" fill="none" stroke="var(--emerald)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Capital Injection</h3>
+        <p>Strategic funding with founder-friendly terms to help you scale operations quickly without sacrificing control.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" width="24" height="24"><path d="M12 20.94c1.5 0 2.75 1.06 4 2.12 1.25-1.06 2.5-2.12 4-2.12 1.5 0 3-1.06 3-3V7.94c0-2-1.5-3-3-3-1.5 0-2.75 1.06-4 2.12-1.25-1.06-2.5-2.12-4-2.12S9 3.88 7.5 4.94C6.25 6 5 7 5 9v10c0 1.94 1.5 3 3 3zM12 20.94V4.94" fill="none" stroke="var(--emerald)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Operating Guidance</h3>
+        <p>Hands-on mentorship from industry veterans who have built and scaled unicorns from the ground up.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-card__icon">
+          <svg viewBox="0 0 24 24" width="24" height="24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 7a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm14 14v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" fill="none" stroke="var(--emerald)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Network Access</h3>
+        <p>Exclusive access to our curated founder network, top-tier engineering talent, and strategic partners.</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="pricing" class="page-section">
+    <div class="section-header">
+      <h2 class="section-title">Funding Tiers</h2>
+      <p class="section-desc">Flexible equity terms tailored for early-stage startups.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>Seed Stage</h3>
+        <div class="price">7% <span>Equity</span></div>
+        <ul class="pricing-features">
+          <li>Up to $500k Funding</li>
+          <li>Core Partner Mentorship</li>
+          <li>Standard Network Access</li>
+          <li>Monthly Board Check-ins</li>
+        </ul>
+        <button class="btn btn--ghost w-full">Apply for Seed</button>
+      </div>
+      <div class="pricing-card featured">
+        <div class="featured-badge">Most Popular</div>
+        <h3>Growth Stage</h3>
+        <div class="price">10% <span>Equity</span></div>
+        <ul class="pricing-features">
+          <li>Up to $2M Funding</li>
+          <li>Dedicated Operating Partner</li>
+          <li>Premium Network & Events</li>
+          <li>Executive Hiring Support</li>
+        </ul>
+        <button class="btn btn--primary w-full">Apply for Growth</button>
+      </div>
+    </div>
+  </section>
+  
+  <section id="solution" class="page-section cta-section">
+    <div class="cta-inner">
+      <h2 class="section-title">Ready to scale your vision?</h2>
+      <p class="section-desc">Building the foundation for your next eighteen months. Let's transition from early product-market fit to sustainable, exponential growth.</p>
+      <div class="hero__actions cta-actions">
+        <button class="btn btn--primary" type="button">Apply for funding</button>
+        <button class="btn btn--ghost" type="button">Talk to a partner</button>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <span class="nav__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16">
+          <path d="M3 15 L9 5 L14 12 L21 3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M15 3 L21 3 L21 9" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </span>
+      UpFound &copy; 2026
+    </div>
+    <div class="footer__links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<div class="modal" id="loginModal">
+  <div class="modal__content">
+    <button class="modal__close" aria-label="Close modal">&times;</button>
+    <h2>Login / Sign Up</h2>
+    <p>Join our network of founders.</p>
+    <form class="modal__form">
+      <input type="email" placeholder="Email Address" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit" class="btn btn--primary">Continue</button>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
